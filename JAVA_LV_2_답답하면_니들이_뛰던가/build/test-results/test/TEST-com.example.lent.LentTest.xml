@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.lent.LentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-02T14:47:23" hostname="192.168.nate.com" time="0.015">
+  <properties/>
+  <testcase name="Lent Test" classname="com.example.lent.LentTest" time="0.015"/>
+  <system-out><![CDATA[1
+2
+3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
