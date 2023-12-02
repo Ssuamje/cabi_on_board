@@ -1,6 +1,6 @@
 ## 개요
 
-![답답하면 니들이 뛰던가](https://prod-files-secure.s3.us-west-2.amazonaws.com/1dc14d02-9fef-47d5-828a-c667c7d13337/19d36ec6-98c7-4ce0-beb9-63f8e3890e67/Untitled.png)
+![image](https://github.com/Ssuamje/cabi_on_board/assets/105692206/79f1d8fb-d180-440e-b45a-3ed43d68f2f3)
 
 답답하면 니들이 뛰던가
 
