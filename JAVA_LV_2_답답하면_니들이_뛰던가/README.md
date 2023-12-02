@@ -2,8 +2,6 @@
 
 ![image](https://github.com/Ssuamje/cabi_on_board/assets/105692206/79f1d8fb-d180-440e-b45a-3ed43d68f2f3)
 
-답답하면 니들이 뛰던가
-
 5차 백엔드 `대욱(daewoole)`은 새롭게 까비에 합류한 이후에 자바를 처음 접했다.
 
 잔뜩 기대를 품고 작성된 코드들을 보는 그 순간!
