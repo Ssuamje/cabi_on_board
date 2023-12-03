@@ -22,9 +22,7 @@ public class UserRepository {
 	}
 
 	public User save(User user) {
-		TABLE.stream()
-				.filter(e -> e.getUserId().equals(user.getUserId()))
-				.forEach(TABLE::remove);
+		TABLE.removeIf(c -> c.getUserId().equals(user.getUserId()));
 		TABLE.add(user);
 		return user;
 	}
