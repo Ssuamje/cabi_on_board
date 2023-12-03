@@ -1,6 +1,7 @@
 ## 개요
 
-![image](https://github.com/Ssuamje/cabi_on_board/assets/105692206/79f1d8fb-d180-440e-b45a-3ed43d68f2f3)
+![Untitled](https://github.com/Ssuamje/cabi_on_board/assets/105692206/e4c072f8-3cd3-46b0-b123-24e9d4dea15c)
+
 
 5차 백엔드 `대욱(daewoole)`은 새롭게 까비에 합류한 이후에 자바를 처음 접했다.
 
