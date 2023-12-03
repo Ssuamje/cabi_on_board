@@ -6,12 +6,19 @@ import lombok.RequiredArgsConstructor;
 import java.time.LocalDateTime;
 
 /*Entity가 뭘까요?*/
-@RequiredArgsConstructor
 @Getter
 public class LentHistory {
-	private final Long lentHistoryId;
-	private final Long cabinetId;
-	private final String lentUserName;
-	private final LocalDateTime createdAt;
-	private final LocalDateTime expiredAt;
+	private Long lentHistoryId;
+	private Long cabinetId;
+	private String lentUserName;
+	private LocalDateTime createdAt;
+	private LocalDateTime expiredAt;
+
+	public LentHistory(Long lentHistoryId, Long cabinetId, String lentUserName, LocalDateTime createdAt, LocalDateTime expiredAt) {
+		this.lentHistoryId = lentHistoryId;
+		this.cabinetId = cabinetId;
+		this.lentUserName = lentUserName;
+		this.createdAt = createdAt;
+		this.expiredAt = expiredAt;
+	}
 }

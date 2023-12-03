@@ -7,7 +7,13 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public class User {
-	private final Long userId;
-	private final String name;
-	private final boolean isBanned;
+	private Long userId;
+	private String name;
+	private boolean isBanned;
+
+	public User(Long userId, String name, boolean isBanned) {
+		this.userId = userId;
+		this.name = name;
+		this.isBanned = isBanned;
+	}
 }

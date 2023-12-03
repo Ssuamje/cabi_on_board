@@ -4,9 +4,13 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 /*Entity가 뭘까요?*/
-@RequiredArgsConstructor
 @Getter
 public class Cabinet {
-	private final Long cabinetId;
-	private final CabinetStatus cabinetStatus;
+	private Long cabinetId;
+	private CabinetStatus cabinetStatus;
+
+	public Cabinet(Long cabinetId, CabinetStatus cabinetStatus) {
+		this.cabinetId = cabinetId;
+		this.cabinetStatus = cabinetStatus;
+	}
 }
