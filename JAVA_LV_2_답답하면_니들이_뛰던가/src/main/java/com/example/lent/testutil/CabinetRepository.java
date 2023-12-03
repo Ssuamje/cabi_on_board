@@ -15,9 +15,9 @@ public class CabinetRepository {
 	}
 
 	public Cabinet save(Cabinet cabinet) {
-		if (TABLE.contains(cabinet)) {
-			throw new RuntimeException("이미 있는 사물함이야!");
-		}
+		TABLE.stream()
+				.filter(e -> e.getCabinetId().equals(cabinet.getCabinetId()))
+				.forEach(TABLE::remove);
 		TABLE.add(cabinet);
 		return cabinet;
 	}
