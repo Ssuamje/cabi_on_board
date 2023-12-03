@@ -22,9 +22,9 @@ public class UserRepository {
 	}
 
 	public User save(User user) {
-		if (TABLE.contains(user)) {
-			throw new RuntimeException("이미 있는 사람이야!");
-		}
+		TABLE.stream()
+				.filter(e -> e.getUserId().equals(user.getUserId()))
+				.forEach(TABLE::remove);
 		TABLE.add(user);
 		return user;
 	}
